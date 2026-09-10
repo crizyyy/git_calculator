@@ -49,7 +49,10 @@ int main()
         switch (choice)
 
         {
-			case 1:{
+
+			
+
+			case 1:
 			  cout <<"first number is:"<<endl;
 			  cin>>firstNumber;
 			  cout <<"second number is"<<endl;
@@ -60,12 +63,20 @@ int main()
 			  if(secondNumber<0){
 				  cout<<"Negative number";
 			  }
-			  int c = firstNumber+secondNumber;
-			  cout << "Result of Addition = "<<c;
-			  
-			  }
+			  result = firstNumber+secondNumber;
+			  cout << "Result of Addition = "<<result;
+			  break;
+			case 3:
+				cout << "Enter first number: ";
+				cin >> firstNumber;
 
-			
+				cout << "Enter second number: ";
+				cin >> secondNumber;
+
+				result =firstNumber * secondNumber;
+
+				cout << "Multiplication: " << result << endl;
+				break;
         }
  
     } while (choice != 7);
