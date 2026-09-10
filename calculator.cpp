@@ -49,7 +49,12 @@ int main()
         switch (choice)
 
         {
-
+			case 5:
+			cout<<"give the number";
+            cin>>firstNumber;
+            result = sqrtl(firstNumber);
+			cout<<"the square root of"<<firstNumber<<"is"<<result;
+            break;
 			
 
 			case 1:
@@ -66,6 +71,7 @@ int main()
 			  result = firstNumber+secondNumber;
 			  cout << "Result of Addition = "<<result;
 			  break;
+			  
 			case 3:
 				cout << "Enter first number: ";
 				cin >> firstNumber;
