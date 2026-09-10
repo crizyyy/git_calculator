@@ -56,6 +56,52 @@ int main()
 				cin>> secondNumber;
 				result=firstNumber/secondNumber;
 				cout<<"Answer: "<<result;
+
+			case 2:
+			cout<<"\nEnter the first Number:\n";
+			cin>>firstNumber;
+			cout<<"\nEnter the second Number:\n";
+			cin>>secondNumber;
+			result = firstNumber - secondNumber;
+			cout<<"the result is:"<<result;
+			break;
+			
+
+
+			case 5:
+			cout<<"give the number";
+            cin>>firstNumber;
+            result = sqrtl(firstNumber);
+			cout<<"the square root of"<<firstNumber<<"is"<<result;
+            break;
+
+			
+
+			case 1:
+			  cout <<"first number is:"<<endl;
+			  cin>>firstNumber;
+			  cout <<"second number is"<<endl;
+			  cin>>secondNumber;
+			  if(firstNumber<0){
+				  cout<<"Negative number";
+			  }
+			  if(secondNumber<0){
+				  cout<<"Negative number";
+			  }
+			  result = firstNumber+secondNumber;
+			  cout << "Result of Addition = "<<result;
+			  break;
+			  
+			case 3:
+				cout << "Enter first number: ";
+				cin >> firstNumber;
+
+				cout << "Enter second number: ";
+				cin >> secondNumber;
+
+				result =firstNumber * secondNumber;
+
+				cout << "Multiplication: " << result << endl;
 				break;
         }
  
