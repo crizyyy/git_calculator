@@ -49,6 +49,15 @@ int main()
         switch (choice)
 
         {
+			case 1:{
+			  cout <<"first number is:"<<endl;
+			  cin>>firstNumber;
+			  cout <<"second number is"<<endl;
+			  cin>>secondNumber;
+			  int c = firstNumber+secondNumber;
+			  cout << "Result of Addition = "<<c;
+			  
+			  }
 
 			
         }
