@@ -49,6 +49,21 @@ int main()
         switch (choice)
 
         {
+			case 1:{
+			  cout <<"first number is:"<<endl;
+			  cin>>firstNumber;
+			  cout <<"second number is"<<endl;
+			  cin>>secondNumber;
+			  if(firstNumber<0){
+				  cout<<"Negative number";
+			  }
+			  if(secondNumber<0){
+				  cout<<"Negative number";
+			  }
+			  int c = firstNumber+secondNumber;
+			  cout << "Result of Addition = "<<c;
+			  
+			  }
 
 			
         }
