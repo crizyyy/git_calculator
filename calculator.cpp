@@ -49,8 +49,14 @@ int main()
         switch (choice)
 
         {
-
-			
+			case 4:
+				cout<<"Enter first number: ";
+				cin>> firstNumber;
+				cout<<"Enter second number: ";
+				cin>> secondNumber;
+				result=firstNumber/secondNumber;
+				cout<<"Answer: "<<result;
+				break;
         }
  
     } while (choice != 7);
