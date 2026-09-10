@@ -49,7 +49,12 @@ int main()
         switch (choice)
 
         {
-
+			case 5:
+			cout<<"give the number";
+            cin>>firstNumber;
+            int result = sqrtl(firstNumber);
+			cout<<"the square root of"<<firstNumber<<"is"<<result;
+            break;
 			
         }
  
