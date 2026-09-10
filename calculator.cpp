@@ -60,6 +60,32 @@ int main()
 			
 
 			
+
+			case 1:
+			  cout <<"first number is:"<<endl;
+			  cin>>firstNumber;
+			  cout <<"second number is"<<endl;
+			  cin>>secondNumber;
+			  if(firstNumber<0){
+				  cout<<"Negative number";
+			  }
+			  if(secondNumber<0){
+				  cout<<"Negative number";
+			  }
+			  result = firstNumber+secondNumber;
+			  cout << "Result of Addition = "<<result;
+			  break;
+			case 3:
+				cout << "Enter first number: ";
+				cin >> firstNumber;
+
+				cout << "Enter second number: ";
+				cin >> secondNumber;
+
+				result =firstNumber * secondNumber;
+
+				cout << "Multiplication: " << result << endl;
+				break;
         }
  
     } while (choice != 7);
