@@ -52,7 +52,7 @@ int main()
 			case 5:
 			cout<<"give the number";
             cin>>firstNumber;
-            int result = sqrtl(firstNumber);
+            result = sqrtl(firstNumber);
 			cout<<"the square root of"<<firstNumber<<"is"<<result;
             break;
 			
@@ -71,6 +71,7 @@ int main()
 			  result = firstNumber+secondNumber;
 			  cout << "Result of Addition = "<<result;
 			  break;
+			  
 			case 3:
 				cout << "Enter first number: ";
 				cin >> firstNumber;
